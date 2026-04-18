@@ -4,3 +4,12 @@ Um problema que abrange todos os padrões de projeto deve ser criado e, dessa fo
 ## Monitoramento de IOT
 
 Descrição do problema: Uma empresa de automação predial precisa de um sistema que colete leituras de diferentes tipos de sensores (temperatura, umidade, CO₂), normalize esses dados vindos de protocolos distintos, registre eventos em log central, aplique regras de alerta dinamicamente e notifique múltiplos canais (e-mail, SMS, dashboard) quando limites críticos forem ultrapassados.
+
+Logo, usaria:
+
+- [ ] Singleton: Logger central único /n
+- [ ] Factory: Criação de sensores por tipo
+- [ ] Adaptador: Normalizador de dados de protocolos legados
+- [ ] Proxy: Utilizado para controle de acesso e cache de leituras
+- [ ] Facade: Para criar uma interface fácil para o ser e unificada para o sistema inteiro
+- [ ] Decorator: Adiciona filtros/alertas sobre sensoresObserverNotifica canais quando há alertas
