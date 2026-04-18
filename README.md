@@ -1,4 +1,4 @@
-# Feriado_com_Padr-es
+# Feriado com Padrões
 Um problema que abrange todos os padrões de projeto deve ser criado e, dessa forma, feita a solução nesse feriadão. :(
 
 ## Monitoramento de IOT
