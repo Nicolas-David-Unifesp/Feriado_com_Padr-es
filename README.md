@@ -7,7 +7,7 @@ Descrição do problema: Uma empresa de automação predial precisa de um sistem
 
 Logo, usaria:
 
-- [ ] Singleton: Logger central único /n
+- [ ] Singleton: Logger central único
 - [ ] Factory: Criação de sensores por tipo
 - [ ] Adaptador: Normalizador de dados de protocolos legados
 - [ ] Proxy: Utilizado para controle de acesso e cache de leituras
