@@ -5,7 +5,11 @@ O que já foi feito?
 Factory
 Singleton
 Observer
-Adapter (a fazer)
+Adapter
 
 21/04/2026
 
+Falta:
+Proxy
+Facade
+Decorator
