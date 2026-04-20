@@ -3,7 +3,7 @@ O que já foi feito?
 20/04/2026
 
 Factory
-Singleton(a fazer)
+Singleton
 Observer
 Adapter (a fazer)
 
