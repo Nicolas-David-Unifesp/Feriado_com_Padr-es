@@ -11,5 +11,5 @@ Logo, usaria:
 - [ ] Factory: Criação de sensores por tipo
 - [ ] Adaptador: Normalizador de dados de protocolos legados
 - [ ] Proxy: Utilizado para controle de acesso e cache de leituras
-- [ ] Facade: Para criar uma interface fácil para o ser e unificada para o sistema inteiro
+- [ ] Facade: Para criar uma interface fácil para o user e unificada para o sistema inteiro
 - [ ] Decorator: Adiciona filtros/alertas sobre sensoresObserverNotifica canais quando há alertas
