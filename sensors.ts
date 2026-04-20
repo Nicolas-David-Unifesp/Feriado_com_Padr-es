@@ -15,4 +15,34 @@ export class TemperatureSensor implements ISensor {//Sensor de temperatura
   }
 }
 
-export class
+export class CO2Sensor implements ISensor {//Sensor de CO2
+  constructor(private id: string) {}
+
+  getId(): string { return this.id; }
+
+  read(): SensorReading {
+    return {
+      sensorId: this.id,
+      type: "co2",
+      value: 400 + Math.random() * 600,//Simula que está entre 400 ppm e 1000 ppm.
+      unit: "ppm",
+      timestamp: new Date(),
+    };
+  }
+}
+
+export class HumiditySensor implements ISensor {//Sensor de umidade
+  constructor(private id: string) {}
+
+  getId(): string { return this.id; }
+
+  read(): SensorReading {
+    return {
+      sensorId: this.id,
+      type: "humidity",
+      value: 40 + Math.random() * 40, //Simula uma leitura de umidade relativa do ar, entre 40% e 80%.
+      unit: "%",
+      timestamp: new Date(),
+    };
+  }
+}
