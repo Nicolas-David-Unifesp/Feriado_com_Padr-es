@@ -1,0 +1,11 @@
+O que já foi feito?
+
+20/04/2026
+
+Factory
+Singleton(a fazer)
+Observer
+Adapter (a fazer)
+
+21/04/2026
+
