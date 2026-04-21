@@ -1,4 +1,12 @@
 //Aqui seria o decorator
+import { ISensor, SensorReading } from "./interfaces";
+import { SensorFactory } from "./sensorFactory";
+import { LegacyThermometer, LegacySensorAdapter } from "./adapter";
+import { SensorProxy } from "./sensorProxy";
+import { AlertDecorator } from "./alertDecorator";
+import { AlertPublisher, EmailChannel, SMSChannel, DashboardChannel, WhatsAppChannel } from "./alertPublisher";
+import { Logger } from "./logger";
+
 
 export class MonitoringFacade {
   private sensors: Map<string, ISensor> = new Map();
