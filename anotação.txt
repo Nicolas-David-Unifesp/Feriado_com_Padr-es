@@ -9,7 +9,11 @@ Adapter
 
 21/04/2026
 
-Falta:
+
 Proxy
+Falta:
 Facade
 Decorator
+Main
+
+Acho melhor terminar o decorator primeiro porque o facade vai precisar do resto para simplificar para o user.
