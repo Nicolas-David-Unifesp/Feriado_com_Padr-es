@@ -25,12 +25,6 @@ export class MonitoringFacade {
    getLogs(): string[] {
     return Logger.getInstance().getLogs();
   }
-  
-  readSensor(id: string): SensorReading {
-      const sensor = this.sensors.get(id);
-      if (!sensor) throw new Error(`Sensor não encontrado: ${id}`);
-      return sensor.read();
-  }
 
 
   setupSensors(): void {
@@ -80,6 +74,11 @@ export class MonitoringFacade {
       return results;
     }
 
+    readSensor(id: string): SensorReading {
+        const sensor = this.sensors.get(id);
+        if (!sensor) throw new Error(`Sensor não encontrado: ${id}`);
+        return sensor.read();
+    }
   
 }
 
