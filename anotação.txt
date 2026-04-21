@@ -2,15 +2,14 @@ O que já foi feito?
 
 20/04/2026
 
-Factory
-Singleton
-Observer
-Adapter
+Factory ✔
+Singleton ✔
+Observer ✔
+Adapter ✔
 
 21/04/2026
+Proxy ✔
 
-
-Proxy
 Falta:
 Facade
 Decorator
