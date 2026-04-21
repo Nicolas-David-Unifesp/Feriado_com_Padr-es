@@ -10,9 +10,9 @@ Adapter ✔
 21/04/2026
 Proxy ✔
 Decorator ✔
-
-Falta:
-Facade
-Main
+Facade ✔
+Main ✔
 
 Acho melhor terminar o decorator primeiro porque o facade vai precisar do resto para simplificar para o user.
+
+Agora tudo foi terminado e acredito que esteja tudo certo.
