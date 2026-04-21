@@ -33,7 +33,7 @@ export class MonitoringFacade {
   }
 
 
-    setupSensors(): void {
+  setupSensors(): void {
       const logger = Logger.getInstance();
 
       // Factory cria os sensores
@@ -66,7 +66,7 @@ export class MonitoringFacade {
       this.sensors.set(imperialDevice.deviceCode, imperialAdapted); 
   
       logger.log(`Facade inicializada com ${this.sensors.size} sensores. Role: ${this.userRole}`);
-    }
+  }
 
     readAll(): SensorReading[] {
       const results: SensorReading[] = [];
